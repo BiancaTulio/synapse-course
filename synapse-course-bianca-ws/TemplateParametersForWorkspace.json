@@ -8,11 +8,17 @@
 		"synapse-course-bianca-ws-WorkspaceDefaultSqlServer_connectionString": {
 			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=tcp:synapse-course-bianca-ws.sql.azuresynapse.net,1433;Initial Catalog=@{linkedService().DBName}"
 		},
+		"synapsecoursebiancadl_accountKey": {
+			"value": ""
+		},
 		"bing-covid-19-data_sasUri": {
 			"value": ""
 		},
 		"synapse-course-bianca-ws-WorkspaceDefaultStorage_properties_typeProperties_url": {
 			"value": "https://synapsecoursebiancadl.dfs.core.windows.net"
+		},
+		"synapsecoursebiancadl_properties_typeProperties_url": {
+			"value": "https://synapsecoursebiancadl.dfs.core.windows.net/"
 		}
 	}
 }
